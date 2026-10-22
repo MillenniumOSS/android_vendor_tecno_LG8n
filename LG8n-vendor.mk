@@ -148,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LG8n/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/tecno/LG8n/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
     vendor/tecno/LG8n/proprietary/vendor/etc/fsfp-config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/fsfp-config.xml \
-    vendor/tecno/LG8n/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/tecno/LG8n/proprietary/vendor/etc/init/vendor.fptool.fingerprint@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.fptool.fingerprint@2.0-service.rc \
     vendor/tecno/LG8n/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/tecno/LG8n/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
@@ -269,6 +268,4 @@ PRODUCT_PACKAGES += \
     libaal_cust \
     vendor.fptool.fingerprint@2.0-adapter-helper \
     vendor.fptool.fingerprint@2.0 \
-    android.hardware.biometrics.fingerprint@2.1-service.xml \
-    android.hardware.biometrics.fingerprint@2.1-service \
     vendor.fptool.fingerprint@2.0-service
